@@ -2,6 +2,12 @@
 
 This project is a blog analytics and search tool developed using Express.js and Lodash. The tool fetches data from a third-party blog API, performs analytics, and provides search functionality. The goal is to create insightful statistics about the blogs and enable users to search for specific blog posts.
 
+**Live**: https://blog-analytics-search-tool.onrender.com
+
+**Blog stats**: [https://blog-analytics-search-tool.onrender.com/api/blog-stats](https://blog-analytics-search-tool.onrender.com/api/blog-stats)
+
+**Blog Search**: [https://blog-analytics-search-tool.onrender.com/api/blog-search?query=privacy](https://blog-analytics-search-tool.onrender.com/api/blog-search?query=privacy)
+
 ## Setup
 
 Follow these steps to set up the project in your local environment:
