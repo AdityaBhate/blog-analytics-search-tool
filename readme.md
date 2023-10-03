@@ -15,7 +15,7 @@ Follow these steps to set up the project in your local environment:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blog-analytics-search-tool.git
+   git clone https://github.com/AdityaBhate/blog-analytics-search-tool.git
    ```
 
 2. Navigate to the project directory:
@@ -39,6 +39,7 @@ Follow these steps to set up the project in your local environment:
    ```env
    HASURA_ADMIN_SECRET=your-secret-key
    ```
+(for now, I have included the admin key in the Repository. to make it easier for testing)
 
 ### Running the Server
 
@@ -61,9 +62,9 @@ The server will run on `http://localhost:3000` by default.
 - **Example Response:**
   ```json
   {
-    "totalBlogs": 50,
-    "longestTitle": "The Longest Blog Title Ever Written",
-    "privacyBlogs": 10,
+    "totalBlogs": 461,
+    "longestTitle": "The Longest Blog Title",
+    "privacyBlogs": 4,
     "uniqueTitles": ["Blog 1", "Blog 2", ...]
   }
   ```
@@ -78,8 +79,7 @@ The server will run on `http://localhost:3000` by default.
   ```json
   {
     "searchResults": [
-      {"title": "Privacy Matters", ...},
-      {"title": "The Importance of Privacy in Tech", ...},
+      {"title": "Privacy policy", ...},
       ...
     ]
   }
